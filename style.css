@@ -1,0 +1,92 @@
+.home {
+  background-image: url(img/denys-nevozhai-7nrsVjvALnA-unsplash.jpg);
+  min-height: 120vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: overlay;
+}
+
+.home .uber {
+  position: absolute;
+  top: 10%;
+}
+
+.home .uber h1 {
+  font-size: 44px;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 10px 0px;
+  line-height: 40px;
+  letter-spacing: 0.3px;
+}
+
+.home .uber h4 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  padding: 10px 0px;
+  letter-spacing: 0.3px;
+}
+
+.home img {
+  width: 75%;
+  top: 63%;
+}
+
+.clone {
+  margin-top: 14rem;
+}
+
+@media (max-width: 576px) {
+  .home {
+    min-height: 72vh;
+  }
+  .home .uber {
+    top: 7%;
+  }
+  .home .uber h1 {
+    font-size: 27px;
+    padding: 0px;
+    line-height: 23px;
+  }
+  .home img {
+    margin: 0 13px;
+    width: 86%;
+    bottom: 0;
+    top: auto;
+  }
+  nav .math {
+    max-width: 232px;
+  }
+}
+
+@media (max-width: 768px) {
+  nav ul .nav-link {
+    white-space: nowrap;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    /* width: 101%; */
+    font-size: 12px;
+  }
+  .home {
+    min-height: 68vh;
+  }
+  .home .uber h1 {
+    line-height: 39px;
+  }
+}
+
+@media (max-width: 992px) {
+  nav #sunday {
+    max-width: 0px;
+  }
+  .home img {
+    margin: 0 13px;
+    width: 86%;
+    bottom: 0;
+    top: auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */
