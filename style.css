@@ -41,7 +41,7 @@
 
 @media (max-width: 576px) {
   .home {
-    min-height: 92vh;
+    min-height: 120vh;
   }
   .home .uber {
     top: 17%;
