@@ -44,7 +44,7 @@
     min-height: 72vh;
   }
   .home .uber {
-    top: 7%;
+    top: 17%;
   }
   .home .uber h1 {
     font-size: 27px;
@@ -71,9 +71,10 @@
     font-size: 12px;
   }
   .home {
-    min-height: 68vh;
+    min-height: 99vh;
   }
   .home .uber h1 {
+    font-size: 32px;
     line-height: 39px;
   }
 }
